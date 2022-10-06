@@ -59,14 +59,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VykWKWebView",
-                "printedName": "VykWKWebView.VykWKWebView",
-                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                "name": "VykWebView",
+                "printedName": "VykWKWebView.VykWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWebView"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyA2ACF",
-            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyA2ACF",
+            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyAA0a3WebC0CF",
+            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyAA0a3WebC0CF",
             "moduleName": "VykWKWebView",
             "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.VykWKWebViewSetupDelegate>",
             "sugared_genericSig": "<Self where Self : VykWKWebView.VykWKWebViewSetupDelegate>",
@@ -86,9 +86,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "VykWKWebView",
-                "printedName": "VykWKWebView.VykWKWebView",
-                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                "name": "VykWebView",
+                "printedName": "VykWKWebView.VykWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWebView"
               },
               {
                 "kind": "TypeNominal",
@@ -112,8 +112,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyA2AC_7Network7NWErrorOSgs6UInt16VtF",
-            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyA2AC_7Network7NWErrorOSgs6UInt16VtF",
+            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyAA0a3WebC0C_7Network7NWErrorOSgs6UInt16VtF",
+            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyAA0a3WebC0C_7Network7NWErrorOSgs6UInt16VtF",
             "moduleName": "VykWKWebView",
             "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.VykWKWebViewSetupDelegate>",
             "sugared_genericSig": "<Self where Self : VykWKWebView.VykWKWebViewSetupDelegate>",
@@ -134,8 +134,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "VykWKWebView",
-        "printedName": "VykWKWebView",
+        "name": "VykWebView",
+        "printedName": "VykWebView",
         "children": [
           {
             "kind": "Var",
@@ -158,8 +158,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvp",
-            "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvp",
+            "usr": "s:12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvp",
+            "mangledName": "$s12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvp",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -190,8 +190,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvg",
-                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvg",
+                "usr": "s:12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvg",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvg",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "get"
@@ -222,8 +222,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvs",
-                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvs",
+                "usr": "s:12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvs",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvs",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "set"
@@ -240,8 +240,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvM",
-                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvM",
+                "usr": "s:12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvM",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13setupDelegateAA0abc5SetupF0_pSgvM",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -269,8 +269,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvp",
-            "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvp",
+            "usr": "s:12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvp",
+            "mangledName": "$s12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvp",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -301,8 +301,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvg",
-                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvg",
+                "usr": "s:12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvg",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvg",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "get"
@@ -333,8 +333,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvs",
-                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvs",
+                "usr": "s:12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvs",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvs",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "set"
@@ -351,8 +351,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvM",
-                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvM",
+                "usr": "s:12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvM",
+                "mangledName": "$s12VykWKWebView0a3WebC0C13webSocketPorts6UInt16VSgvM",
                 "moduleName": "VykWKWebView",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -366,9 +366,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VykWKWebView",
-                "printedName": "VykWKWebView.VykWKWebView",
-                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                "name": "VykWebView",
+                "printedName": "VykWKWebView.VykWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWebView"
               },
               {
                 "kind": "TypeNominal",
@@ -403,8 +403,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VykWKWebViewAAC5frame13configuration13TrackerConfigABSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
-            "mangledName": "$s12VykWKWebViewAAC5frame13configuration13TrackerConfigABSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
+            "usr": "s:12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfigACSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
+            "mangledName": "$s12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfigACSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -420,13 +420,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "VykWKWebView.VykWKWebView?",
+                "printedName": "VykWKWebView.VykWebView?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "VykWKWebView",
-                    "printedName": "VykWKWebView.VykWKWebView",
-                    "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                    "name": "VykWebView",
+                    "printedName": "VykWKWebView.VykWebView",
+                    "usr": "c:@M@VykWKWebView@objc(cs)VykWebView"
                   }
                 ],
                 "usr": "s:Sq"
@@ -439,8 +439,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView(im)initWithCoder:",
-            "mangledName": "$s12VykWKWebViewAAC5coderABSgSo7NSCoderC_tcfc",
+            "usr": "c:@M@VykWKWebView@objc(cs)VykWebView(im)initWithCoder:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C5coderACSgSo7NSCoderC_tcfc",
             "moduleName": "VykWKWebView",
             "overriding": true,
             "objc_name": "initWithCoder:",
@@ -460,9 +460,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VykWKWebView",
-                "printedName": "VykWKWebView.VykWKWebView",
-                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                "name": "VykWebView",
+                "printedName": "VykWKWebView.VykWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWebView"
               },
               {
                 "kind": "TypeNominal",
@@ -478,8 +478,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView(im)initWithFrame:configuration:",
-            "mangledName": "$s12VykWKWebViewAAC5frame13configurationABSo6CGRectV_So0bC13ConfigurationCtcfc",
+            "usr": "c:@M@VykWKWebView@objc(cs)VykWebView(im)initWithFrame:configuration:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C5frame13configurationACSo6CGRectV_So0bC13ConfigurationCtcfc",
             "moduleName": "VykWKWebView",
             "overriding": true,
             "implicit": true,
@@ -522,8 +522,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID0F7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
-            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID0F7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "usr": "s:12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID0G7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID0G7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -574,8 +574,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAK14ContentContextCSbtF",
-            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAK14ContentContextCSbtF",
+            "usr": "s:12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAL14ContentContextCSbtF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAL14ContentContextCSbtF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -614,8 +614,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID8didClosey7Network12NWConnectionC_SiAG10NWEndpointOtF",
-            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID8didClosey7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "usr": "s:12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID8didClosey7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID8didClosey7Network12NWConnectionC_SiAH10NWEndpointOtF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -654,8 +654,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID8didStarty7Network12NWConnectionC_SiAG10NWEndpointOtF",
-            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID8didStarty7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "usr": "s:12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID8didStarty7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C16ServerConnection10connection0G2ID8didStarty7Network12NWConnectionC_SiAH10NWEndpointOtF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -696,8 +696,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
-            "mangledName": "$s12VykWKWebViewAAC21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
+            "usr": "s:12VykWKWebView0a3WebC0C21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -724,8 +724,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vkReady:",
-            "mangledName": "$s12VykWKWebViewAAC7vkReadyyySbF",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWebView(im)vkReady:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C7vkReadyyySbF",
             "moduleName": "VykWKWebView",
             "objc_name": "vkReady:",
             "declAttributes": [
@@ -755,8 +755,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vkShutdown:",
-            "mangledName": "$s12VykWKWebViewAAC10vkShutdownyySbF",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWebView(im)vkShutdown:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C10vkShutdownyySbF",
             "moduleName": "VykWKWebView",
             "objc_name": "vkShutdown:",
             "declAttributes": [
@@ -792,8 +792,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vktEvent:value:",
-            "mangledName": "$s12VykWKWebViewAAC8vktEvent_5valueySo12vkTrackerTagV_s6UInt32VtF",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWebView(im)vktEvent:value:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C8vktEvent_5valueySo12vkTrackerTagV_s6UInt32VtF",
             "moduleName": "VykWKWebView",
             "objc_name": "vktEvent:value:",
             "declAttributes": [
@@ -849,8 +849,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VykWKWebViewAAC12videoCapture_03didE10VideoFrame9timestamp3fovyAA0gE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
-            "mangledName": "$s12VykWKWebViewAAC12videoCapture_03didE10VideoFrame9timestamp3fovyAA0gE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "usr": "s:12VykWKWebView0a3WebC0C12videoCapture_03didF10VideoFrame9timestamp3fovyAA0hF0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "mangledName": "$s12VykWKWebView0a3WebC0C12videoCapture_03didF10VideoFrame9timestamp3fovyAA0hF0C_So11CVBufferRefaSgSo6CMTimeaSftF",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -904,8 +904,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)VykStartRecordingWithVideoOutputURLWithPath:videoSettings:",
-            "mangledName": "$s12VykWKWebViewAAC0A14StartRecording22videoOutputURLWithPath0F8Settingsy10Foundation3URLV_SDySSypGSgtF",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWebView(im)VykStartRecordingWithVideoOutputURLWithPath:videoSettings:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C0A14StartRecording22videoOutputURLWithPath0G8Settingsy10Foundation3URLV_SDySSypGSgtF",
             "moduleName": "VykWKWebView",
             "objc_name": "VykStartRecordingWithVideoOutputURLWithPath:videoSettings:",
             "declAttributes": [
@@ -948,8 +948,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)VykStopRecordingWithSaveVideo:",
-            "mangledName": "$s12VykWKWebViewAAC0A13StopRecording9saveVideoyy10Foundation3URLVc_tF",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWebView(im)VykStopRecordingWithSaveVideo:",
+            "mangledName": "$s12VykWKWebView0a3WebC0C0A13StopRecording9saveVideoyy10Foundation3URLVc_tF",
             "moduleName": "VykWKWebView",
             "objc_name": "VykStopRecordingWithSaveVideo:",
             "declAttributes": [
@@ -964,8 +964,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView",
-        "mangledName": "$s12VykWKWebViewAAC",
+        "usr": "c:@M@VykWKWebView@objc(cs)VykWebView",
+        "mangledName": "$s12VykWKWebView0a3WebC0C",
         "moduleName": "VykWKWebView",
         "declAttributes": [
           "Custom",
@@ -2131,345 +2131,345 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 213,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
       "offset": 329,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1058,
+      "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 1307,
+      "offset": 1301,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1442,
+      "offset": 1436,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1491,
+      "offset": 1485,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1542,
+      "offset": 1536,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1593,
+      "offset": 1587,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1644,
+      "offset": 1638,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1695,
+      "offset": 1689,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1744,
+      "offset": 1738,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1796,
+      "offset": 1790,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "Dictionary",
-      "offset": 1854,
+      "offset": 1848,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "FloatLiteral",
-      "offset": 1911,
+      "offset": 1905,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1962,
+      "offset": 1956,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2216,
+      "offset": 2210,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2274,
+      "offset": 2268,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2328,
+      "offset": 2322,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2383,
+      "offset": 2377,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2432,
+      "offset": 2426,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2484,
+      "offset": 2478,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2533,
+      "offset": 2527,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3326,
+      "offset": 3320,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3377,
+      "offset": 3371,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3629,
+      "offset": 3623,
       "length": 8,
       "value": "\"facing\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3661,
+      "offset": 3655,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3697,
+      "offset": 3691,
       "length": 16,
       "value": "\"externalCamera\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3760,
+      "offset": 3754,
       "length": 7,
       "value": "\"arKit\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3792,
+      "offset": 3786,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3805,
+      "offset": 3799,
       "length": 21,
       "value": "\"arKitExternalCamera\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3837,
+      "offset": 3831,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3869,
+      "offset": 3863,
       "length": 29,
       "value": "\"arKitInternalPlaneDetection\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3901,
+      "offset": 3895,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3971,
+      "offset": 3965,
       "length": 9,
       "value": "\"tracker\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3982,
+      "offset": 3976,
       "length": 6,
       "value": "\"foot\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3996,
+      "offset": 3990,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "Dictionary",
-      "offset": 4007,
+      "offset": 4001,
       "length": 241,
       "value": "[(\"textureScale\", [(\"width\", 540), (\"height\", 960), (\"widthAv\", 7), (\"heightAv\", 7), (\"fusionFactor\", 0.6565)])]"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "Dictionary",
-      "offset": 4318,
+      "offset": 4312,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4399,
+      "offset": 4393,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "Array",
-      "offset": 4409,
+      "offset": 4403,
       "length": 27,
       "value": "[\"Version\"]"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4518,
+      "offset": 4512,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "Array",
-      "offset": 4528,
+      "offset": 4522,
       "length": 25,
       "value": "[\"stats\"]"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "StringLiteral",
-      "offset": 568,
-      "length": 12,
-      "value": "\"VykWKWebView.VykWKWebView\""
+      "offset": 564,
+      "length": 10,
+      "value": "\"VykWKWebView.VykWebView\""
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40514,
+      "offset": 40498,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40517,
+      "offset": 40501,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40520,
+      "offset": 40504,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40658,
+      "offset": 40642,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40662,
+      "offset": 40646,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40665,
+      "offset": 40649,
       "length": 1,
       "value": "1"
     },

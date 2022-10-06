@@ -275,8 +275,8 @@ SWIFT_CLASS("_TtC12VykWKWebView12VideoCapture")
 @class WKWebViewConfiguration;
 
 IB_DESIGNABLE
-SWIFT_CLASS("_TtC12VykWKWebView12VykWKWebView")
-@interface VykWKWebView : WKWebView
+SWIFT_CLASS("_TtC12VykWKWebView10VykWebView")
+@interface VykWebView : WKWebView
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame configuration:(WKWebViewConfiguration * _Nonnull)configuration SWIFT_UNAVAILABLE;
 @end
@@ -286,13 +286,13 @@ SWIFT_CLASS("_TtC12VykWKWebView12VykWKWebView")
 @class NSURL;
 @class NSString;
 
-@interface VykWKWebView (SWIFT_EXTENSION(VykWKWebView))
+@interface VykWebView (SWIFT_EXTENSION(VykWKWebView))
 - (void)VykStartRecordingWithVideoOutputURLWithPath:(NSURL * _Nonnull)videoOutputURLWithPath videoSettings:(NSDictionary<NSString *, id> * _Nullable)videoSettings;
 - (void)VykStopRecordingWithSaveVideo:(void (^ _Nonnull)(NSURL * _Nonnull))saveVideo;
 @end
 
 
-@interface VykWKWebView (SWIFT_EXTENSION(VykWKWebView)) <vkTrackerInterface>
+@interface VykWebView (SWIFT_EXTENSION(VykWKWebView)) <vkTrackerInterface>
 - (void)vkReady:(BOOL)good;
 - (void)vkShutdown:(BOOL)good;
 - (void)vktEvent:(enum vkTrackerTag)tag value:(uint32_t)value;

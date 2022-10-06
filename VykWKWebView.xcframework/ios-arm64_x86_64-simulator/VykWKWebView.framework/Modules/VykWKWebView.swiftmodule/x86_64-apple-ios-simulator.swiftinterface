@@ -16,34 +16,34 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 public protocol VykWKWebViewSetupDelegate : AnyObject {
-  func listenerSetupComplete(_ vykWKWebView: VykWKWebView.VykWKWebView)
-  func listenerSetupError(_ vykWKWebView: VykWKWebView.VykWKWebView, error: Network.NWError?, port: Swift.UInt16)
+  func listenerSetupComplete(_ vykWKWebView: VykWKWebView.VykWebView)
+  func listenerSetupError(_ vykWKWebView: VykWKWebView.VykWebView, error: Network.NWError?, port: Swift.UInt16)
 }
-@objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWKWebView : WebKit.WKWebView {
+@objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWebView : WebKit.WKWebView {
   @_Concurrency.MainActor(unsafe) public var setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate?
   @_Concurrency.MainActor(unsafe) public var webSocketPort: Swift.UInt16?
   @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any])
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-extension VykWKWebView.VykWKWebView : VykWKWebView.ServerConnectionDelegate {
+extension VykWKWebView.VykWebView : VykWKWebView.ServerConnectionDelegate {
   @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, connectionDidFail: Swift.Error)
   @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didReceive: Foundation.Data, context: Network.NWConnection.ContentContext, isComplete: Swift.Bool)
   @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didClose: Network.NWEndpoint)
   @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didStart: Network.NWEndpoint)
 }
-extension VykWKWebView.VykWKWebView {
+extension VykWKWebView.VykWebView {
   @_Concurrency.MainActor(unsafe) public func ListenerSetupComplete(error: Network.NWError?, port: Swift.UInt16)
 }
-extension VykWKWebView.VykWKWebView : TrackerSDKv2.vkTrackerInterface {
+extension VykWKWebView.VykWebView : TrackerSDKv2.vkTrackerInterface {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func vkReady(_ good: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func vkShutdown(_ good: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func vktEvent(_ tag: TrackerSDKv2.vkTrackerTag, value: Swift.UInt32)
 }
-extension VykWKWebView.VykWKWebView : VykWKWebView.VideoCaptureDelegate {
+extension VykWKWebView.VykWebView : VykWKWebView.VideoCaptureDelegate {
   @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: VykWKWebView.VideoCapture, didCaptureVideoFrame: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime, fov: Swift.Float)
 }
-extension VykWKWebView.VykWKWebView {
+extension VykWKWebView.VykWebView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func VykStartRecording(videoOutputURLWithPath: Foundation.URL, videoSettings: [Swift.String : Any]?)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func VykStopRecording(saveVideo: @escaping (_ videoURL: Foundation.URL) -> Swift.Void)
 }
