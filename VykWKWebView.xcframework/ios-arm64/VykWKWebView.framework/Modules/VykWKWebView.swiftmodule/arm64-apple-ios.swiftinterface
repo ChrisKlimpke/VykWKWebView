@@ -1,0 +1,75 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios15.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VykWKWebView
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreVideo
+import Foundation
+import Network
+import SceneKit
+import Swift
+import SwiftUI
+import TrackerSDKv2
+import UIKit
+@_exported import VykWKWebView
+import WebKit
+import _Concurrency
+import _StringProcessing
+public protocol VykWKWebViewSetupDelegate : AnyObject {
+  func listenerSetupComplete(_ vykWKWebView: VykWKWebView.VykWKWebView)
+  func listenerSetupError(_ vykWKWebView: VykWKWebView.VykWKWebView, error: Network.NWError?, port: Swift.UInt16)
+}
+@objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWKWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) public var setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate?
+  @_Concurrency.MainActor(unsafe) public var webSocketPort: Swift.UInt16?
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any])
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension VykWKWebView.VykWKWebView : VykWKWebView.ServerConnectionDelegate {
+  @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, connectionDidFail: Swift.Error)
+  @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didReceive: Foundation.Data, context: Network.NWConnection.ContentContext, isComplete: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didClose: Network.NWEndpoint)
+  @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didStart: Network.NWEndpoint)
+}
+extension VykWKWebView.VykWKWebView {
+  @_Concurrency.MainActor(unsafe) public func ListenerSetupComplete(error: Network.NWError?, port: Swift.UInt16)
+}
+extension VykWKWebView.VykWKWebView : TrackerSDKv2.vkTrackerInterface {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func vkReady(_ good: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func vkShutdown(_ good: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func vktEvent(_ tag: TrackerSDKv2.vkTrackerTag, value: Swift.UInt32)
+}
+extension VykWKWebView.VykWKWebView : VykWKWebView.VideoCaptureDelegate {
+  @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: VykWKWebView.VideoCapture, didCaptureVideoFrame: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime, fov: Swift.Float)
+}
+extension VykWKWebView.VykWKWebView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func VykStartRecording(videoOutputURLWithPath: Foundation.URL, videoSettings: [Swift.String : Any]?)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func VykStopRecording(saveVideo: @escaping (_ videoURL: Foundation.URL) -> Swift.Void)
+}
+public protocol VideoCaptureDelegate : AnyObject {
+  func videoCapture(_ capture: VykWKWebView.VideoCapture, didCaptureVideoFrame: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime, fov: Swift.Float)
+}
+@objc @_inheritsConvenienceInitializers public class VideoCapture : ObjectiveC.NSObject {
+  public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
+  weak public var delegate: VykWKWebView.VideoCaptureDelegate?
+  public var desiredFrameRate: Swift.Int?
+  public var mFOV: Swift.Float
+  public func recordPlayback(fileName: Swift.String, replayRate: Swift.Int32)
+  public func recordVideo(start: Swift.Bool, fileName: Swift.String) -> Swift.Bool
+  public func setUp(sessionPreset: AVFoundation.AVCaptureSession.Preset = .medium, orientation: AVFoundation.AVCaptureVideoOrientation, enableOutputStream: Swift.Bool, completion: @escaping (Swift.Bool, Swift.Float) -> Swift.Void)
+  public func start()
+  public func stop()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension VykWKWebView.VideoCapture : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didDrop sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public protocol ServerConnectionDelegate : AnyObject {
+  func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, connectionDidFail: Swift.Error)
+  func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didReceive: Foundation.Data, context: Network.NWConnection.ContentContext, isComplete: Swift.Bool)
+  func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didStart: Network.NWEndpoint)
+  func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, didClose: Network.NWEndpoint)
+}

@@ -1,0 +1,2575 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "TrackerSDKv2",
+        "printedName": "TrackerSDKv2",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VykWKWebViewSetupDelegate",
+        "printedName": "VykWKWebViewSetupDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "listenerSetupComplete",
+            "printedName": "listenerSetupComplete(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VykWKWebView",
+                "printedName": "VykWKWebView.VykWKWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyA2ACF",
+            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD8CompleteyyA2ACF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.VykWKWebViewSetupDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.VykWKWebViewSetupDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "listenerSetupError",
+            "printedName": "listenerSetupError(_:error:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VykWKWebView",
+                "printedName": "VykWKWebView.VykWKWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Network.NWError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NWError",
+                    "printedName": "Network.NWError",
+                    "usr": "s:7Network7NWErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyA2AC_7Network7NWErrorOSgs6UInt16VtF",
+            "mangledName": "$s12VykWKWebView0abC13SetupDelegateP08listenerD5Error_5error4portyA2AC_7Network7NWErrorOSgs6UInt16VtF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.VykWKWebViewSetupDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.VykWKWebViewSetupDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12VykWKWebView0abC13SetupDelegateP",
+        "mangledName": "$s12VykWKWebView0abC13SetupDelegateP",
+        "moduleName": "VykWKWebView",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VykWKWebView",
+        "printedName": "VykWKWebView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "setupDelegate",
+            "printedName": "setupDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykWKWebView.VykWKWebViewSetupDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VykWKWebViewSetupDelegate",
+                    "printedName": "VykWKWebView.VykWKWebViewSetupDelegate",
+                    "usr": "s:12VykWKWebView0abC13SetupDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvp",
+            "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykWKWebView.VykWKWebViewSetupDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VykWKWebViewSetupDelegate",
+                        "printedName": "VykWKWebView.VykWKWebViewSetupDelegate",
+                        "usr": "s:12VykWKWebView0abC13SetupDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvg",
+                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykWKWebView.VykWKWebViewSetupDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VykWKWebViewSetupDelegate",
+                        "printedName": "VykWKWebView.VykWKWebViewSetupDelegate",
+                        "usr": "s:12VykWKWebView0abC13SetupDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvs",
+                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvM",
+                "mangledName": "$s12VykWKWebViewAAC13setupDelegateAA0abc5SetupE0_pSgvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "webSocketPort",
+            "printedName": "webSocketPort",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.UInt16?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvp",
+            "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvg",
+                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UInt16?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvs",
+                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebViewAAC13webSocketPorts6UInt16VSgvM",
+                "mangledName": "$s12VykWKWebViewAAC13webSocketPorts6UInt16VSgvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:TrackerConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykWKWebView",
+                "printedName": "VykWKWebView.VykWKWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VykWKWebViewAAC5frame13configuration13TrackerConfigABSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
+            "mangledName": "$s12VykWKWebViewAAC5frame13configuration13TrackerConfigABSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VykWKWebView.VykWKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VykWKWebView",
+                    "printedName": "VykWKWebView.VykWKWebView",
+                    "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView(im)initWithCoder:",
+            "mangledName": "$s12VykWKWebViewAAC5coderABSgSo7NSCoderC_tcfc",
+            "moduleName": "VykWKWebView",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VykWKWebView",
+                "printedName": "VykWKWebView.VykWKWebView",
+                "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView(im)initWithFrame:configuration:",
+            "mangledName": "$s12VykWKWebViewAAC5frame13configurationABSo6CGRectV_So0bC13ConfigurationCtcfc",
+            "moduleName": "VykWKWebView",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:configuration:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:connectionDidFail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID0F7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID0F7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didReceive:context:isComplete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentContext",
+                "printedName": "Network.NWConnection.ContentContext",
+                "usr": "s:7Network12NWConnectionC14ContentContextC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAK14ContentContextCSbtF",
+            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAK14ContentContextCSbtF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didClose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWEndpoint",
+                "printedName": "Network.NWEndpoint",
+                "usr": "s:7Network10NWEndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID8didClosey7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID8didClosey7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didStart:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWEndpoint",
+                "printedName": "Network.NWEndpoint",
+                "usr": "s:7Network10NWEndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC16ServerConnection10connection0F2ID8didStarty7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebViewAAC16ServerConnection10connection0F2ID8didStarty7Network12NWConnectionC_SiAG10NWEndpointOtF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ListenerSetupComplete",
+            "printedName": "ListenerSetupComplete(error:port:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Network.NWError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NWError",
+                    "printedName": "Network.NWError",
+                    "usr": "s:7Network7NWErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
+            "mangledName": "$s12VykWKWebViewAAC21ListenerSetupComplete5error4porty7Network7NWErrorOSg_s6UInt16VtF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkReady",
+            "printedName": "vkReady(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vkReady:",
+            "mangledName": "$s12VykWKWebViewAAC7vkReadyyySbF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "vkReady:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vkShutdown",
+            "printedName": "vkShutdown(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vkShutdown:",
+            "mangledName": "$s12VykWKWebViewAAC10vkShutdownyySbF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "vkShutdown:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vktEvent",
+            "printedName": "vktEvent(_:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "vkTrackerTag",
+                "printedName": "TrackerSDKv2.vkTrackerTag",
+                "usr": "c:@E@vkTrackerTag"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)vktEvent:value:",
+            "mangledName": "$s12VykWKWebViewAAC8vktEvent_5valueySo12vkTrackerTagV_s6UInt32VtF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "vktEvent:value:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoCapture",
+            "printedName": "videoCapture(_:didCaptureVideoFrame:timestamp:fov:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "VykWKWebView.VideoCapture",
+                "usr": "c:@M@VykWKWebView@objc(cs)VideoCapture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebViewAAC12videoCapture_03didE10VideoFrame9timestamp3fovyAA0gE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "mangledName": "$s12VykWKWebViewAAC12videoCapture_03didE10VideoFrame9timestamp3fovyAA0gE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VykStartRecording",
+            "printedName": "VykStartRecording(videoOutputURLWithPath:videoSettings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)VykStartRecordingWithVideoOutputURLWithPath:videoSettings:",
+            "mangledName": "$s12VykWKWebViewAAC0A14StartRecording22videoOutputURLWithPath0F8Settingsy10Foundation3URLV_SDySSypGSgtF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "VykStartRecordingWithVideoOutputURLWithPath:videoSettings:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VykStopRecording",
+            "printedName": "VykStopRecording(saveVideo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URL) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VykWKWebView(im)VykStopRecordingWithSaveVideo:",
+            "mangledName": "$s12VykWKWebViewAAC0A13StopRecording9saveVideoyy10Foundation3URLVc_tF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "VykStopRecordingWithSaveVideo:",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VykWKWebView@objc(cs)VykWKWebView",
+        "mangledName": "$s12VykWKWebViewAAC",
+        "moduleName": "VykWKWebView",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)WKWebView",
+        "superclassNames": [
+          "WebKit.WKWebView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ServerConnectionDelegate",
+            "printedName": "ServerConnectionDelegate",
+            "usr": "s:12VykWKWebView24ServerConnectionDelegateP",
+            "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VideoCaptureDelegate",
+            "printedName": "VideoCaptureDelegate",
+            "usr": "s:12VykWKWebView20VideoCaptureDelegateP",
+            "mangledName": "$s12VykWKWebView20VideoCaptureDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoCaptureDelegate",
+        "printedName": "VideoCaptureDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "videoCapture",
+            "printedName": "videoCapture(_:didCaptureVideoFrame:timestamp:fov:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "VykWKWebView.VideoCapture",
+                "usr": "c:@M@VykWKWebView@objc(cs)VideoCapture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView20VideoCaptureDelegateP05videoE0_03dideD5Frame9timestamp3fovyAA0dE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "mangledName": "$s12VykWKWebView20VideoCaptureDelegateP05videoE0_03dideD5Frame9timestamp3fovyAA0dE0C_So11CVBufferRefaSgSo6CMTimeaSftF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.VideoCaptureDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.VideoCaptureDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12VykWKWebView20VideoCaptureDelegateP",
+        "mangledName": "$s12VykWKWebView20VideoCaptureDelegateP",
+        "moduleName": "VykWKWebView",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoCapture",
+        "printedName": "VideoCapture",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "previewLayer",
+            "printedName": "previewLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoPreviewLayer",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                    "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvp",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvg",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvs",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvM",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC12previewLayerSo09AVCaptured7PreviewG0CSgvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "VykWKWebView.VideoCaptureDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvp",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykWKWebView.VideoCaptureDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoCaptureDelegate",
+                        "printedName": "VykWKWebView.VideoCaptureDelegate",
+                        "usr": "s:12VykWKWebView20VideoCaptureDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvg",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "VykWKWebView.VideoCaptureDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoCaptureDelegate",
+                        "printedName": "VykWKWebView.VideoCaptureDelegate",
+                        "usr": "s:12VykWKWebView20VideoCaptureDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvs",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvM",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC8delegateAA0dE8Delegate_pSgvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "desiredFrameRate",
+            "printedName": "desiredFrameRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvp",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvg",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvs",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvM",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC16desiredFrameRateSiSgvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mFOV",
+            "printedName": "mFOV",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VykWKWebView12VideoCaptureC4mFOVSfvp",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC4mFOVSfvp",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC4mFOVSfvg",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC4mFOVSfvg",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC4mFOVSfvs",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC4mFOVSfvs",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VykWKWebView12VideoCaptureC4mFOVSfvM",
+                "mangledName": "$s12VykWKWebView12VideoCaptureC4mFOVSfvM",
+                "moduleName": "VykWKWebView",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "recordPlayback",
+            "printedName": "recordPlayback(fileName:replayRate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView12VideoCaptureC14recordPlayback8fileName10replayRateySS_s5Int32VtF",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC14recordPlayback8fileName10replayRateySS_s5Int32VtF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordVideo",
+            "printedName": "recordVideo(start:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView12VideoCaptureC06recordD05start8fileNameS2b_SStF",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC06recordD05start8fileNameS2b_SStF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(sessionPreset:orientation:enableOutputStream:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Preset",
+                "printedName": "AVFoundation.AVCaptureSession.Preset",
+                "hasDefaultArg": true,
+                "usr": "c:@T@AVCaptureSessionPreset"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureVideoOrientation",
+                "printedName": "AVFoundation.AVCaptureVideoOrientation",
+                "usr": "c:@E@AVCaptureVideoOrientation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.Float) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.Float)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView12VideoCaptureC5setUp13sessionPreset11orientation18enableOutputStream10completionySo016AVCaptureSessionI0a_So0oD11OrientationVSbySb_SftctF",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC5setUp13sessionPreset11orientation18enableOutputStream10completionySo016AVCaptureSessionI0a_So0oD11OrientationVSbySb_SftctF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView12VideoCaptureC5startyyF",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC5startyyF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView12VideoCaptureC4stopyyF",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC4stopyyF",
+            "moduleName": "VykWKWebView",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "VykWKWebView.VideoCapture",
+                "usr": "c:@M@VykWKWebView@objc(cs)VideoCapture"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VykWKWebView@objc(cs)VideoCapture(im)init",
+            "mangledName": "$s12VykWKWebView12VideoCaptureCACycfc",
+            "moduleName": "VykWKWebView",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VideoCapture(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC13captureOutput_03didG04fromySo09AVCaptureG0C_So17CMSampleBufferRefaSo0J10ConnectionCtF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didDrop:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VykWKWebView@objc(cs)VideoCapture(im)captureOutput:didDropSampleBuffer:fromConnection:",
+            "mangledName": "$s12VykWKWebView12VideoCaptureC13captureOutput_7didDrop4fromySo09AVCaptureG0C_So17CMSampleBufferRefaSo0K10ConnectionCtF",
+            "moduleName": "VykWKWebView",
+            "objc_name": "captureOutput:didDropSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VykWKWebView@objc(cs)VideoCapture",
+        "mangledName": "$s12VykWKWebView12VideoCaptureC",
+        "moduleName": "VykWKWebView",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "VykWKWebView"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServerConnectionDelegate",
+        "printedName": "ServerConnectionDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:connectionDidFail:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID0G7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID0G7DidFaily7Network12NWConnectionC_Sis5Error_ptF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.ServerConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.ServerConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didReceive:context:isComplete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ContentContext",
+                "printedName": "Network.NWConnection.ContentContext",
+                "usr": "s:7Network12NWConnectionC14ContentContextC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAL14ContentContextCSbtF",
+            "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID10didReceive7context10isCompletey7Network12NWConnectionC_Si10Foundation4DataVAL14ContentContextCSbtF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.ServerConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.ServerConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didStart:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWEndpoint",
+                "printedName": "Network.NWEndpoint",
+                "usr": "s:7Network10NWEndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID8didStarty7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID8didStarty7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.ServerConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.ServerConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ServerConnection",
+            "printedName": "ServerConnection(connection:connectionID:didClose:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWConnection",
+                "printedName": "Network.NWConnection",
+                "usr": "s:7Network12NWConnectionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NWEndpoint",
+                "printedName": "Network.NWEndpoint",
+                "usr": "s:7Network10NWEndpointO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID8didClosey7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP0dE010connection0G2ID8didClosey7Network12NWConnectionC_SiAH10NWEndpointOtF",
+            "moduleName": "VykWKWebView",
+            "genericSig": "<τ_0_0 where τ_0_0 : VykWKWebView.ServerConnectionDelegate>",
+            "sugared_genericSig": "<Self where Self : VykWKWebView.ServerConnectionDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12VykWKWebView24ServerConnectionDelegateP",
+        "mangledName": "$s12VykWKWebView24ServerConnectionDelegateP",
+        "moduleName": "VykWKWebView",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1058,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1307,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1542,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1593,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1644,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1744,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "Dictionary",
+      "offset": 1854,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1911,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1962,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2216,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2274,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2328,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2383,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2484,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2533,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3326,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3377,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3629,
+      "length": 8,
+      "value": "\"facing\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3661,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3697,
+      "length": 16,
+      "value": "\"externalCamera\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3760,
+      "length": 7,
+      "value": "\"arKit\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3792,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3805,
+      "length": 21,
+      "value": "\"arKitExternalCamera\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3837,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3869,
+      "length": 29,
+      "value": "\"arKitInternalPlaneDetection\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3901,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3971,
+      "length": 9,
+      "value": "\"tracker\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3982,
+      "length": 6,
+      "value": "\"foot\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3996,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "Dictionary",
+      "offset": 4007,
+      "length": 241,
+      "value": "[(\"textureScale\", [(\"width\", 540), (\"height\", 960), (\"widthAv\", 7), (\"heightAv\", 7), (\"fusionFactor\", 0.6565)])]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "Dictionary",
+      "offset": 4318,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4399,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "Array",
+      "offset": 4409,
+      "length": 27,
+      "value": "[\"Version\"]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4518,
+      "length": 8,
+      "value": "\"config\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "Array",
+      "offset": 4528,
+      "length": 25,
+      "value": "[\"stats\"]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 12,
+      "value": "\"VykWKWebView.VykWKWebView\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40514,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40517,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40520,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40658,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40662,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWKWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40665,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "FloatLiteral",
+      "offset": 560,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 23,
+      "value": "\"com.octi.camera-queue\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 881,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 917,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "BooleanLiteral",
+      "offset": 961,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "FloatLiteral",
+      "offset": 999,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "FloatLiteral",
+      "offset": 1033,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VideoCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/swiftWebSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/swiftWebSocket.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 17,
+      "value": "\"SocketSendQueue\""
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/swiftWebSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 946,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/swiftWebSocket.swift",
+      "kind": "Dictionary",
+      "offset": 1007,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/swiftWebSocket.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15523,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module VykWKWebView {
+  umbrella header "VykWKWebView.h"
+
+  export *
+  module * { export * }
+}
+
+module VykWKWebView.Swift {
+  header "VykWKWebView-Swift.h"
+  requires objc
+}
