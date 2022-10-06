@@ -18,6 +18,7 @@ import _StringProcessing
 public protocol VykWKWebViewSetupDelegate : AnyObject {
   func listenerSetupComplete(_ vykWKWebView: VykWKWebView.VykWebView)
   func listenerSetupError(_ vykWKWebView: VykWKWebView.VykWebView, error: Network.NWError?, port: Swift.UInt16)
+  func vykReady(_ good: Swift.Bool)
 }
 @objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWebView : WebKit.WKWebView {
   @_Concurrency.MainActor(unsafe) public var setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate?
