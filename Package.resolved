@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "trackersdkv2",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:ChrisKlimpke/TrackerSDKv2.git",
+      "state" : {
+        "revision" : "ad007816321ec79d0520dba2663f53386d11cd2d",
+        "version" : "1.1.10"
+      }
+    }
+  ],
+  "version" : 2
+}
