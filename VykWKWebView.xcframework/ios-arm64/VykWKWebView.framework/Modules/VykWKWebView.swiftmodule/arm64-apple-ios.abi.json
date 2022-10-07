@@ -389,7 +389,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(frame:configuration:TrackerConfig:)",
+            "printedName": "init(frame:configuration:TrackerConfig:setupDelegate:uiDelegate:navigationDelegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -427,11 +427,29 @@
                   }
                 ],
                 "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VykWKWebViewSetupDelegate",
+                "printedName": "VykWKWebView.VykWKWebViewSetupDelegate",
+                "usr": "s:12VykWKWebView0abC13SetupDelegateP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUIDelegate",
+                "printedName": "WebKit.WKUIDelegate",
+                "usr": "c:objc(pl)WKUIDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationDelegate",
+                "printedName": "WebKit.WKNavigationDelegate",
+                "usr": "c:objc(pl)WKNavigationDelegate"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfigACSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
-            "mangledName": "$s12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfigACSo6CGRectV_So0bC13ConfigurationCSDySSypGtcfc",
+            "usr": "s:12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfig13setupDelegate02uiJ0010navigationJ0ACSo6CGRectV_So0bC13ConfigurationCSDySSypGAA0abc5SetupJ0_pSo12WKUIDelegate_pSo012WKNavigationJ0_ptcfc",
+            "mangledName": "$s12VykWKWebView0a3WebC0C5frame13configuration13TrackerConfig13setupDelegate02uiJ0010navigationJ0ACSo6CGRectV_So0bC13ConfigurationCSDySSypGAA0abc5SetupJ0_pSo12WKUIDelegate_pSo012WKNavigationJ0_ptcfc",
             "moduleName": "VykWKWebView",
             "declAttributes": [
               "Custom",
@@ -2461,42 +2479,42 @@
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40674,
+      "offset": 41041,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40677,
+      "offset": 41044,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40680,
+      "offset": 41047,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40818,
+      "offset": 41185,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40822,
+      "offset": 41189,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Chris\/Documents\/CrossPlatform\/VykingWKWebViewKit\/VykWKWebViewDemo\/VykWKWebView\/VykWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 40825,
+      "offset": 41192,
       "length": 1,
       "value": "1"
     },

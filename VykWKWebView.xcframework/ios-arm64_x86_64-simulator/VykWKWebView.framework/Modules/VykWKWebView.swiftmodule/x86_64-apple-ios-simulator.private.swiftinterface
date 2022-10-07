@@ -23,7 +23,7 @@ public protocol VykWKWebViewSetupDelegate : AnyObject {
 @objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWebView : WebKit.WKWebView {
   @_Concurrency.MainActor(unsafe) public var setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate?
   @_Concurrency.MainActor(unsafe) public var webSocketPort: Swift.UInt16?
-  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any])
+  @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any], setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate, uiDelegate: WebKit.WKUIDelegate, navigationDelegate: WebKit.WKNavigationDelegate)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
