@@ -26,6 +26,7 @@ public protocol VykWKWebViewSetupDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any], setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate, uiDelegate: WebKit.WKUIDelegate, navigationDelegate: WebKit.WKNavigationDelegate)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
+  @_Concurrency.MainActor(unsafe) public func shutdown()
 }
 extension VykWKWebView.VykWebView : VykWKWebView.ServerConnectionDelegate {
   @_Concurrency.MainActor(unsafe) public func ServerConnection(connection: Network.NWConnection, connectionID: Swift.Int, connectionDidFail: Swift.Error)
@@ -56,13 +57,13 @@ public protocol VideoCaptureDelegate : AnyObject {
   weak public var delegate: VykWKWebView.VideoCaptureDelegate?
   public var desiredFrameRate: Swift.Int?
   public var mFOV: Swift.Float
+  @objc deinit
   public func recordPlayback(fileName: Swift.String, replayRate: Swift.Int32)
   public func recordVideo(start: Swift.Bool, fileName: Swift.String) -> Swift.Bool
   public func setUp(sessionPreset: AVFoundation.AVCaptureSession.Preset = .medium, orientation: AVFoundation.AVCaptureVideoOrientation, enableOutputStream: Swift.Bool, completion: @escaping (Swift.Bool, Swift.Float) -> Swift.Void)
   public func start()
   public func stop()
   @objc override dynamic public init()
-  @objc deinit
 }
 extension VykWKWebView.VideoCapture : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
