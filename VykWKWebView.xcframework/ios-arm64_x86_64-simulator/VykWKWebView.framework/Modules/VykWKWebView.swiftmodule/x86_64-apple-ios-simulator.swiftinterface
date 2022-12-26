@@ -21,6 +21,7 @@ public protocol VykWKWebViewSetupDelegate : AnyObject {
   func vykReady(_ good: Swift.Bool)
 }
 @objc @IBDesignable @_Concurrency.MainActor(unsafe) public class VykWebView : WebKit.WKWebView {
+  @_Concurrency.MainActor(unsafe) public var lensFactor: Swift.Float
   @_Concurrency.MainActor(unsafe) public var setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate?
   @_Concurrency.MainActor(unsafe) public var webSocketPort: Swift.UInt16?
   @_Concurrency.MainActor(unsafe) public init(frame: CoreFoundation.CGRect, configuration: WebKit.WKWebViewConfiguration, TrackerConfig: [Swift.String : Any], setupDelegate: VykWKWebView.VykWKWebViewSetupDelegate, uiDelegate: WebKit.WKUIDelegate, navigationDelegate: WebKit.WKNavigationDelegate)
@@ -60,7 +61,7 @@ public protocol VideoCaptureDelegate : AnyObject {
   @objc deinit
   public func recordPlayback(fileName: Swift.String, replayRate: Swift.Int32)
   public func recordVideo(start: Swift.Bool, fileName: Swift.String) -> Swift.Bool
-  public func setUp(sessionPreset: AVFoundation.AVCaptureSession.Preset = .medium, orientation: AVFoundation.AVCaptureVideoOrientation, enableOutputStream: Swift.Bool, completion: @escaping (Swift.Bool, Swift.Float) -> Swift.Void)
+  public func setUp(sessionPreset: AVFoundation.AVCaptureSession.Preset = .medium, deviceTypes: [AVFoundation.AVCaptureDevice.DeviceType], orientation: AVFoundation.AVCaptureVideoOrientation, enableOutputStream: Swift.Bool, completion: @escaping (Swift.Bool, Swift.Float) -> Swift.Void)
   public func start()
   public func stop()
   @objc override dynamic public init()

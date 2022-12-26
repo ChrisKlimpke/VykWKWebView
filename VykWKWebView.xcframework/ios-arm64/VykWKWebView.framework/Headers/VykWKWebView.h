@@ -54,5 +54,8 @@ FOUNDATION_EXPORT const unsigned char VykWKWebViewVersionString[];
 -(id<MTLDevice> )getMetalDevice ;
 
 -(void )DrawIntoTextureFromTexture:(id<MTLTexture>)sourceTexture targetTexture:(id<MTLTexture>)targetTexture ;
+
+-(void )setLensFactor:(float )lensFactor ;
+
 @end
 

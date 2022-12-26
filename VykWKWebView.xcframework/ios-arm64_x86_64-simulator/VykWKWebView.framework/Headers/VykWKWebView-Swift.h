@@ -292,12 +292,12 @@ SWIFT_CLASS("_TtC12VykWKWebView10VykWebView")
 @end
 
 
+
 @interface VykWebView (SWIFT_EXTENSION(VykWKWebView)) <vkTrackerInterface>
 - (void)vkReady:(BOOL)good;
 - (void)vkShutdown:(BOOL)good;
 - (void)vktEvent:(enum vkTrackerTag)tag value:(uint32_t)value;
 @end
-
 
 #endif
 #if defined(__cplusplus)
@@ -601,12 +601,12 @@ SWIFT_CLASS("_TtC12VykWKWebView10VykWebView")
 @end
 
 
+
 @interface VykWebView (SWIFT_EXTENSION(VykWKWebView)) <vkTrackerInterface>
 - (void)vkReady:(BOOL)good;
 - (void)vkShutdown:(BOOL)good;
 - (void)vktEvent:(enum vkTrackerTag)tag value:(uint32_t)value;
 @end
-
 
 #endif
 #if defined(__cplusplus)
